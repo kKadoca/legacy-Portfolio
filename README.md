@@ -1,4 +1,4 @@
 # Portfolio
  Repositório de apresentação
 
- Aqui se encontra minha jornada de aprendizado como dev.
+ Aqui se encontra minha jornada de aprendizado como dev (em construção).
