@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body {
+    color: #343334;
+}
+
+header {
+    background-color: #F2913D;
+}
+
+a {
+    color: #343334;
+}
+
+a:hover {
+    color: #575958;
+}
+
+footer {
+    background-color: #343334;
+    color: #F2F2F2;
+}
+
+
+#inicio {
+    background-color: #F2A663;
+}   
+
+#sobre {
+    background-color: #F2913D;
+}
+
+#projetos {
+    background-color: #F2A663;
+}
+
+#habilidades {
+    background-color: #F2913D;
+}

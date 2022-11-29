@@ -1,0 +1,27 @@
+Geral:
+- Fontes
+- Divisórias de Section
+- Responsividade dinâmica
+- JavaScript
+
+Section Inicio:
+- Importar arte
+- Animar arte
+- Cor de fundo (alterar)
+
+Section Sobre:
+- Elaborar texto
+- Editar avatar (opcional)
+
+Section Projetos:
+- Tudo
+
+Section Habilidades:
+- Tudo
+
+Footer:
+- Adicionar Contatos 
+    - Telefone
+    - Redes Sociais
+    - Sites
+- Formatar
