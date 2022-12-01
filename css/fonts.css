@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+@font-face { /* Título */
+    font-family: 'Square';
+    src: url('../fonts/Square.ttf') format('truetype');
+}
+
+@font-face { /* Texto-Início */
+    font-family: 'Brain';
+    src: url('../fonts/Brain.ttf') format('truetype');
+}
+
+@font-face { /* Nome-Início */
+    font-family: 'Patrick';
+    src: url('../fonts/Patrick.ttf') format('truetype');
+}
+
+@font-face { /* Navigation e Subtítulos*/
+    font-family: 'TylerDurden';
+    src: url('../fonts/TylerDurden.ttf') format('truetype');
+}
+
+@font-face { /* Corpo de texto*/
+    font-family: 'CafeBold';
+    src: url('../fonts/LG\ Cafe\ Bold.ttf') format('truetype');
+}
+
+@font-face { /* Corpo de texto*/
+    font-family: 'Cafe';
+    src: url('../fonts/LG\ Cafe.ttf') format('truetype');
+}
+
+a {
+    font: bold 22px TylerDurden, Arial, Helvetica, sans-serif;
+}
+
+header {
+    font: bold 25px Square, Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    font: bold 40px TylerDurden, Arial, Helvetica, sans-serif;
+}
+
+.texto-inicio {
+    font: normal 30px Brain, Arial, Helvetica, sans-serif;
+}
+
+.nome-inicio {
+    font: normal 150px Patrick, Arial, Helvetica, sans-serif;
+}
+
+.texto-section {
+    font: normal 22px CafeBold;
+}
+
+footer {
+    font: normal 18px Cafe;
+}

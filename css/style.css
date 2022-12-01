@@ -17,37 +17,25 @@ ul {
 
 a {
     text-decoration: none;
-    font: bold 20px Arial;
 }
 
 header {
-    height: 90px;
+    height: 74px; /* lucky number */
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
 footer {
-    height: 120px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    height: 150px;
+    padding: 10px;
+    text-align: center;
 }
 
 section {
-    height: 700px;
+    height: 650px;
+    padding: 25px;
     text-align: center;
-    margin: auto;
-    padding: 30px;
-}
-
-p {
-    font: bold 20px Arial;
-    width: 400px;
-}
-
-h2 {
-    font-size: 30px;
 }
 
 #inicio {
@@ -56,9 +44,23 @@ h2 {
     align-items: center;
 }
 
+.saudacao {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.texto-inicio {
+    padding-left: 2px;
+}
+
 .sobre {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 100px;
+    padding: 45px;
+}
+
+.texto-section {
+    width: 450px;
 }

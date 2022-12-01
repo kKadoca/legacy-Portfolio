@@ -1,17 +1,16 @@
 Geral:
-- Fontes
 - Divisórias de Section
 - Responsividade dinâmica
 - JavaScript
+- Substituir PX por REM onde possível
 
 Section Inicio:
 - Importar arte
 - Animar arte
-- Cor de fundo (alterar)
 
 Section Sobre:
 - Elaborar texto
-- Editar avatar (opcional)
+- Editar avatar (talvez)
 
 Section Projetos:
 - Tudo
