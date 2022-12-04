@@ -8,10 +8,9 @@ Geral:
 Section Inicio:
 - Importar arte
 - Animar arte
-- Botão Linkedin
-- Botão GitHub
 
 Section Sobre:
+- Botao para download curriculum
 - Editar avatar (talvez)
 
 Section Projetos:
@@ -20,9 +19,4 @@ Section Projetos:
 Section Habilidades:
 - Tudo
 
-Footer:
-- Adicionar Contatos 
-    - Telefone
-    - Redes Sociais
-    - Sites
-- Formatar
+Footer: OK
