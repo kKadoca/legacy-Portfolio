@@ -3,17 +3,19 @@ Geral:
 - Responsividade dinâmica
 - JavaScript
 - Substituir PX por REM onde possível
+- Fade in animation nas sections
 
 Section Inicio:
 - Importar arte
 - Animar arte
+- Botão Linkedin
+- Botão GitHub
 
 Section Sobre:
-- Elaborar texto
 - Editar avatar (talvez)
 
 Section Projetos:
-- Tudo
+- Slide com titulo e botao
 
 Section Habilidades:
 - Tudo

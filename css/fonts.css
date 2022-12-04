@@ -5,7 +5,7 @@
     src: url('../fonts/Square.ttf') format('truetype');
 }
 
-@font-face { /* Texto-Início */
+@font-face { /* Texto-Início e Botões*/
     font-family: 'Brain';
     src: url('../fonts/Brain.ttf') format('truetype');
 }
@@ -30,8 +30,12 @@
     src: url('../fonts/LG\ Cafe.ttf') format('truetype');
 }
 
-a {
-    font: bold 22px TylerDurden, Arial, Helvetica, sans-serif;
+.header {
+    font: bold 20px TylerDurden, Arial, Helvetica, sans-serif;
+}
+
+.footer {
+    font: normal 20px TylerDurden, Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -42,12 +46,16 @@ h2 {
     font: bold 40px TylerDurden, Arial, Helvetica, sans-serif;
 }
 
+.botao {
+    font: normal 27px Brain, Arial, Helvetica, sans-serif;
+}
+
 .texto-inicio {
     font: normal 30px Brain, Arial, Helvetica, sans-serif;
 }
 
 .nome-inicio {
-    font: normal 150px Patrick, Arial, Helvetica, sans-serif;
+    font: normal 160px Patrick, Arial, Helvetica, sans-serif;
 }
 
 .texto-section {

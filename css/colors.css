@@ -8,17 +8,31 @@ header {
     background-color: #F2913D;
 }
 
-a {
+.botao {
+    border-color: #343334;
     color: #343334;
 }
 
-a:hover {
+.botao:hover {
+    background-color: #F2913D;
+    transition: 300ms;
+}
+
+.header {
+    color: #343334;
+}
+
+.header:hover {
     color: #575958;
 }
 
 footer {
     background-color: #343334;
-    color: #F2F2F2;
+    color: #f2f2f2;
+}
+
+.footer {
+    color: #f2f2f2;
 }
 
 
