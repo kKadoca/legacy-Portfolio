@@ -30,22 +30,20 @@
     src: url('../fonts/LG\ Cafe.ttf') format('truetype');
 }
 
-.header {
-    font: bold 20px TylerDurden, Arial, Helvetica, sans-serif;
+/* geral */
+h2 {
+    font: bold 40px TylerDurden, Arial, Helvetica, sans-serif;
 }
 
-.footer {
-    font: normal 20px TylerDurden, Arial, Helvetica, sans-serif;
+.header {
+    font: bold 20px TylerDurden, Arial, Helvetica, sans-serif;
 }
 
 header {
     font: bold 25px Square, Arial, Helvetica, sans-serif;
 }
 
-h2 {
-    font: bold 40px TylerDurden, Arial, Helvetica, sans-serif;
-}
-
+/* tela de inicio */
 .botao {
     font: normal 27px Brain, Arial, Helvetica, sans-serif;
 }
@@ -58,10 +56,25 @@ h2 {
     font: normal 160px Patrick, Arial, Helvetica, sans-serif;
 }
 
+/* tela sobre mim */
 .texto-section {
     font: normal 22px CafeBold;
 }
 
+/* tela de projetos */
+option {
+    font: normal 25px TylerDurden, Arial, Helvetica, sans-serif;
+}
+
+.descricao-projeto {
+    font: normal 16px Cafe;
+}
+
+/* footer */
 footer {
     font: normal 18px Cafe;
+}
+
+.footer {
+    font: normal 20px TylerDurden, Arial, Helvetica, sans-serif;
 }

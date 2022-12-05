@@ -1,11 +1,25 @@
 @charset "UTF-8";
 
+/* geral */
 body {
     color: #343334;
 }
 
 header {
     background-color: #F2913D;
+}
+
+.header {
+    color: #343334;
+}
+
+.header:hover {
+    color: #575958;
+}
+
+/* tela de inicio */
+#inicio {
+    background-color: #f2f2f2;
 }
 
 .botao {
@@ -18,14 +32,39 @@ header {
     transition: 300ms;
 }
 
-.header {
+/* tela sobre mim */
+#sobre {
+    background-color: #F2913D;
+}
+
+/* tela de projetos */
+#projetos {
+    background-color: #f2f2f2;
+}
+
+#seltab {
+    background-color: #f2f2f2;
+}
+
+option {
+    background-color: #f2f2f2;
     color: #343334;
 }
 
-.header:hover {
-    color: #575958;
+.select{
+    position: relative;
 }
 
+.select-selected {
+    background-color: #F2913D;
+}
+
+/* tela de habilidades */
+#habilidades {
+    background-color: #F2913D;
+}
+
+/* footer */
 footer {
     background-color: #343334;
     color: #f2f2f2;
@@ -33,21 +72,4 @@ footer {
 
 .footer {
     color: #f2f2f2;
-}
-
-
-#inicio {
-    background-color: #f2f2f2;
-}   
-
-#sobre {
-    background-color: #F2913D;
-}
-
-#projetos {
-    background-color: #f2f2f2;
-}
-
-#habilidades {
-    background-color: #F2913D;
 }
