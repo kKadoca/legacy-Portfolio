@@ -42,6 +42,15 @@ header {
     background-color: #f2f2f2;
 }
 
+.selecao:hover {
+    background-color: #F2913D;
+    transition: .3s;
+}
+
+.descricao-projeto {
+    background-color: #f2f2f2;
+}
+
 /* tela de habilidades */
 #habilidades {
     background-color: #F2913D;

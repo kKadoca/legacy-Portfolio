@@ -62,11 +62,11 @@ header {
 }
 
 /* tela de projetos */
-option { /* navigation */
+.selecao {
     font: normal 25px TylerDurden, Arial, Helvetica, sans-serif;
 }
 
-.descricao-projeto { /* cards */
+.descricao-projeto {
     font: normal 16px Cafe;
 }
 
