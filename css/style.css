@@ -83,18 +83,11 @@ section {
     gap: 30px;
 }
 
-.projeto {
+.projetos {
     display: flex;
     width: 840px;
     height: 450px;
     margin: auto;
-}
-
-option {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 120px;
 }
 
 .banner {

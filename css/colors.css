@@ -29,7 +29,7 @@ header {
 
 .botao:hover {
     background-color: #F2913D;
-    transition: 300ms;
+    transition: .3s;
 }
 
 /* tela sobre mim */
@@ -40,23 +40,6 @@ header {
 /* tela de projetos */
 #projetos {
     background-color: #f2f2f2;
-}
-
-#seltab {
-    background-color: #f2f2f2;
-}
-
-option {
-    background-color: #f2f2f2;
-    color: #343334;
-}
-
-.select{
-    position: relative;
-}
-
-.select-selected {
-    background-color: #F2913D;
 }
 
 /* tela de habilidades */
