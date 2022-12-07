@@ -19,7 +19,8 @@ Section Sobre:
 - Editar avatar (talvez)
 
 Section Projetos:
-- Importar banner dos projetos
+- Alterar banner proj1
+- Adicionar banner proj3
 - Destacar navegação selecionada
 
 Section Habilidades:

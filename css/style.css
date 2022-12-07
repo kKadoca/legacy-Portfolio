@@ -142,6 +142,7 @@ input {
 }
 
 .card-projeto img {
+    border-top: 1px solid #343334;
     height: 80%;
     width: 100%;
 }
@@ -167,15 +168,15 @@ input {
 }
 
 #proj2:checked ~ .s1 {
-    margin-top: -67.7%;
+    margin-top: -67.9%;
 }
 
 #proj3:checked ~ .s1 {
-    margin-top: -135.5%;
+    margin-top: -135.7%;
 }
 
 #proj4:checked ~ .s1 {
-    margin-top: -203.3%;
+    margin-top: -203.7%;
 }
 
 /* footer */
