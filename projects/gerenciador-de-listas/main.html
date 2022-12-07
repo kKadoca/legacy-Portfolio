@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de Listas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Gerenciador de Listas</h1>
+    </header>
+    <section>
+        <div>
+            <p>Número (entre 1 e 1000): 
+                <input type="number" name="txtn" id="txtn">
+                <input type="button" value="Adicionar" onclick="adicionar()">
+            </p>
+        </div>
+        <div>
+            <select name="tabela" id="seltab" size="10">
+                <option>Preencha essa lista adicionando números acima!</option>
+            </select>
+        </div>
+        <input type="button" value="Analisar Lista" onclick="analisar()">
+        <input type="button" value="Limpar Lista" onclick="limpar()">
+        <div id="res">
+
+
+        </div>
+    </section>
+    <footer>
+        <p>&#64;kKadoca</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

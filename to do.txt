@@ -1,22 +1,27 @@
 Geral:
-- Divisórias de Section
-- Responsividade dinâmica
 - JavaScript
-- Substituir PX por REM onde possível
+- Divisórias de Section
 - Fade in animation nas sections
+- Header fixo
+- Organizar pasta img e suas referencias
+
+Acessibilidade e Responsividade:
+- Colocar fontes alternativas;
+- Responsividade dinâmica
+- Substituir PX por REM onde possível
 
 Section Inicio:
 - Importar arte
 - Animar arte
 
 Section Sobre:
-- Botao para download curriculum
+- Configurar botao para download curriculum
 - Editar avatar (talvez)
 
 Section Projetos:
-- Slide com titulo e botao
+- Importar banner dos projetos
+- Destacar navegação selecionada
 
 Section Habilidades:
 - Tudo
 
-Footer: OK

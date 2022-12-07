@@ -35,12 +35,12 @@
                 <p class="texto-inicio">desenvolvedor front-end</p>
                 <div>
                     <a href="https://github.com/kKadoca" target="_blank" rel="external">
-                        <button class="botao">
+                        <button class="botao b1">
                             <img src="img/github-icon-cinza.png" alt="github-icon" height="25px">
                             GitHub
                         </button></a>
                     <a href="https://www.linkedin.com/in/carlos-eduardo-terra-62215822b/" target="_blank" rel="external">
-                        <button class="botao">
+                        <button class="botao b1">
                             <img src="img/linkedin-icon-cinza.png" alt="linkedin-icon" height="25px">
                             Linkedin
                         </button></a>
@@ -50,7 +50,13 @@
         <section id="sobre">
             <h2>SOBRE MIM</h2>
             <div class="sobre">
-                <p class="texto-section">Meu nome é Carlos Eduardo, sou graduando em Sistemas de Informação na UFMS e atualmente atuo como assistente contábil em uma empresa de distribuição de alimentos. Com a decisão de estudar por conta própria, tenho desenvolvido alguns projetos web há seis meses e mantendo o estudo constante. Com isso, pude constatar a vastidão de conteúdo que eu me encontro em frente e desenvolver um engajamento crescente em relação ao meu próprio crescimento intelectual. No momento, busco uma oportunidade de empenhar em uma função mais formal e ingressar oficialmente no mercado, tendo como diretriz, <em>agregar</em> sempre mais valor.</p>
+                <div>
+                    <p class="texto-section">Meu nome é Carlos Eduardo, sou graduando em Sistemas de Informação na UFMS e atualmente atuo como assistente contábil em uma empresa de distribuição de alimentos. Com a decisão de estudar por conta própria, tenho desenvolvido alguns projetos web há seis meses e mantendo o estudo constante. Com isso, pude constatar a vastidão de conteúdo que eu me encontro em frente e desenvolver um engajamento crescente em relação ao meu próprio crescimento intelectual. No momento, busco uma oportunidade de empenhar em uma função mais formal e ingressar oficialmente no mercado, tendo como diretriz, <em>agregar</em> sempre mais valor.</p>
+                    <a href="#">    <!-- fazer executar download do arquivo -->
+                        <button class="botao b1">
+                        <img src="img/download-icon.png" alt="icone de download" height="25px">
+                        Curriculum</button></a>
+                </div>
                 <img src="img/avatar-corpo-500.png" alt="avatar-corpo-500">
             </div>
         </section>
@@ -60,7 +66,7 @@
                 <div class="navegacao-projetos">
                     <label class="selecao" for="proj1">Adm. de Listas</label>
                     <label class="selecao" for="proj2">Hora do Dia</label>
-                    <label class="selecao" for="proj3">Em Breve</label>
+                    <label class="selecao" for="proj3">Loja Virtual</label>
                     <label class="selecao" for="proj4">Em Breve</label>
                 </div> 
                 <div class="slides">
@@ -69,39 +75,60 @@
                     <input type="radio" name="projeto" id="proj3">
                     <input type="radio" name="projeto" id="proj4">
 
+                    <!-- projeto 1 -->
                     <div class="card-projeto s1">
                         <img src="img/placeholder.png" alt="banner do projeto1">
                         <div class="descricao-projeto">
-                            <h3>Adm. de Listas</h3>
-                            <p>Descrição do projeto</p>
-                            <a href="#"><button class="botao-proj">Acessar</button></a>
+                            <div class="texto-descricao">
+                                <h3>Administrador de Listas</h3>
+                                <p>Aqui vai ficar uma descrição do projeto em questão. Para acessar o projeto e visualizá-lo clique no botão ao lado.</p>
+                            </div>
+                            <div class="botao-descricao">
+                                <a href="projects/gerenciador-de-listas/main.html" target="_blank">
+                                    <button class="botao b2">Acessar</button></a>
+                            </div>
                         </div>
                     </div>
+                    <!-- projeto 2 -->
                     <div class="card-projeto">
                         <img src="img/placeholder.png" alt="banner do projeto2">
                         <div class="descricao-projeto">
-                            <h3>Hora do Dia</h3>
-                            <p>Descrição do projeto</p>
-                            <a href="#"><button class="botao-proj">Acessar</button></a>
+                            <div class="texto-descricao">
+                                <h3>Hora do Dia</h3>
+                                <p>Aqui vai ficar uma descrição do projeto em questão. Para acessar o projeto e visualizá-lo clique no botão ao lado.</p>
+                            </div>
+                            <div class="botao-descricao">
+                                <a href="projects/hora-do-dia/main.html" target="_blank">
+                                    <button class="botao b2">Acessar</button></a>
+                            </div>
                         </div>
                     </div>
+                    <!-- projeto 3 -->
                     <div class="card-projeto">
-                        <img src="img/placeholder.png" alt="banner do projeto3">
+                        <img src="img/banners/embreve.png" alt="banner do projeto3">
                         <div class="descricao-projeto">
-                            <h3>Titulo3</h3>
-                            <p>Descrição do projeto</p>
-                            <a href="#"><button class="botao-proj">Acessar</button></a>
+                            <div class="texto-descricao">
+                                <h3>Em breve</h3>
+                                <p>Aqui ficaria uma descrição do projeto em questão e seria possível visualizá-lo com um botão ao lado.</p>
+                            </div>
+                            <div class="botao-descricao"> 
+                                <!-- <a href="#"><button class="botao b2">Acessar</button></a> -->
+                            </div>
                         </div>
                     </div>
+                    <!-- projeto 4 -->
                     <div class="card-projeto">
-                        <img src="img/placeholder.png" alt="banner do projeto4">
+                        <img src="img/banners/embreve.png" alt="banner do projeto4">
                         <div class="descricao-projeto">
-                            <h3>Titulo4</h3>
-                            <p>Descrição do projeto</p>
-                            <a href="#"><button class="botao-proj">Acessar</button></a>
+                            <div class="texto-descricao">
+                                <h3>Em breve</h3>
+                                <p>Aqui ficaria uma descrição do projeto em questão e seria possível visualizá-lo com um botão ao lado.</p>
+                            </div>
+                            <div class="botao-descricao">
+                                <!-- <a href="#"><button class="botao b2">Acessar</button></a> -->
+                            </div>
                         </div>
                     </div>
-
                 </div> 
             </div>
         </section>

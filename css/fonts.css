@@ -43,11 +43,15 @@ header {
     font: bold 25px Square, Arial, Helvetica, sans-serif;
 }
 
-/* tela de inicio */
 .botao {
     font: normal 27px Brain, Arial, Helvetica, sans-serif;
 }
 
+.b2 {
+    font-size: 20px;
+}
+
+/* tela de inicio */
 .texto-inicio {
     font: normal 30px Brain, Arial, Helvetica, sans-serif;
 }
@@ -66,8 +70,12 @@ header {
     font: normal 25px TylerDurden, Arial, Helvetica, sans-serif;
 }
 
-.descricao-projeto {
-    font: normal 16px Cafe;
+.texto-descricao h3 {
+    font: normal 25px Brain;
+}
+
+.texto-descricao p {
+    font: normal 18px CafeBold;
 }
 
 /* footer */
