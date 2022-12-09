@@ -3,10 +3,8 @@ Geral:
 - Divisórias de Section
 - Fade in animation nas sections
 - Header fixo
-- Organizar pasta img e suas referencias
 
 Acessibilidade e Responsividade:
-- Colocar fontes alternativas;
 - Responsividade dinâmica
 - Substituir PX por REM onde possível
 
@@ -15,14 +13,12 @@ Section Inicio:
 - Animar arte
 
 Section Sobre:
-- Configurar botao para download curriculum
 - Editar avatar (talvez)
 
 Section Projetos:
-- Alterar banner proj1
-- Adicionar banner proj3
 - Destacar navegação selecionada
 
-Section Habilidades:
+Section Habilidades: 
+Será um grid de cards descritivos (elaborar interatividade)
 - Tudo
 

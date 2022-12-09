@@ -163,8 +163,9 @@ input {
     padding-top: 10px;
 }
 
+/* navigation */
 #proj1:checked ~ .s1 {
-    margin-top: 0;
+    margin-top: -0.1%;
 }
 
 #proj2:checked ~ .s1 {

@@ -35,12 +35,16 @@ h2 {
     font: bold 40px TylerDurden, Arial, Helvetica, sans-serif;
 }
 
+header {
+    font: bold 25px Square, Arial, Helvetica, sans-serif;
+}
+
 .header {
     font: bold 20px TylerDurden, Arial, Helvetica, sans-serif;
 }
 
-header {
-    font: bold 25px Square, Arial, Helvetica, sans-serif;
+footer {
+    font: normal 20px TylerDurden, Arial, Helvetica, sans-serif;
 }
 
 .botao {
@@ -62,7 +66,7 @@ header {
 
 /* tela sobre mim */
 .texto-section {
-    font: normal 22px CafeBold;
+    font: normal 22px CafeBold, Arial, Helvetica, sans-serif;
 }
 
 /* tela de projetos */
@@ -71,18 +75,9 @@ header {
 }
 
 .texto-descricao h3 {
-    font: normal 25px Brain;
+    font: normal 25px Brain, Arial, Helvetica, sans-serif;
 }
 
 .texto-descricao p {
-    font: normal 18px CafeBold;
-}
-
-/* footer */
-footer {
-    font: normal 18px Cafe;
-}
-
-.footer {
-    font: normal 20px TylerDurden, Arial, Helvetica, sans-serif;
+    font: normal 18px CafeBold, Arial, Helvetica, sans-serif;
 }
