@@ -81,3 +81,8 @@ footer {
 .texto-descricao p {
     font: normal 18px CafeBold, Arial, Helvetica, sans-serif;
 }
+
+/* tela de habilidades */
+.habilidade-descricao {
+    font: normal 18px Cafe, Arial, Helvetica, sans-serif;
+}

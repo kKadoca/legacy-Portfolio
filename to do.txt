@@ -19,6 +19,6 @@ Section Projetos:
 - Destacar navegação selecionada
 
 Section Habilidades: 
-Será um grid de cards descritivos (elaborar interatividade)
 - Tudo
+- Elaborar interatividade
 

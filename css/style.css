@@ -38,6 +38,10 @@ input {
     display: none;
 }
 
+h2 {
+    margin-bottom: 30px;
+}
+
 .botao {
     padding: 5px;
     margin: 12px;
@@ -77,14 +81,13 @@ input {
 
 /* tela sobre mim */
 #sobre {
-    height: 600px;
+    height: 560px;
 }
 
 .sobre {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
     gap: 90px;
 }
 
@@ -98,16 +101,16 @@ input {
 
 /* tela de projetos */
 #projetos {
-    height: 600px;
+    height: 580px;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .projetos {
     display: flex;
     width: 950px;
     height: 450px;
-    margin: auto;
     overflow: hidden;
     border-bottom: 1px solid #343334;
 }
@@ -163,21 +166,59 @@ input {
     padding-top: 10px;
 }
 
-/* navigation */
+/* navigation-projetos */
 #proj1:checked ~ .s1 {
-    margin-top: -0.1%;
+    margin-top: 0;
 }
 
 #proj2:checked ~ .s1 {
-    margin-top: -67.9%;
+    margin-top: -67.8%;
 }
 
 #proj3:checked ~ .s1 {
-    margin-top: -135.7%;
+    margin-top: -135.6%;
 }
 
 #proj4:checked ~ .s1 {
-    margin-top: -203.7%;
+    margin-top: -203.6%;
+}
+
+/* habilidades */
+#habilidades {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+    padding-bottom: 50px;
+}
+
+.habilidades {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: fit-content;
+    width: fit-content;
+    gap: 60px 30px;
+    margin-bottom: 30px;
+}
+
+.card-habilidade {
+    display: flex;
+    padding: 15px;
+    height: 70px;
+    width: 270px;
+    gap: 20px;
+    border-radius: 20px;
+    border: 3px solid #343334;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.40);
+}
+
+.habilidade-descricao {
+    text-align: start;
+    padding-top: 3px;
+}
+
+.habilidade-descricao p {
+    padding-top: 23px;
 }
 
 /* footer */
