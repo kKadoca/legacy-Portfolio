@@ -1,25 +1,24 @@
 Geral:
 - JavaScript
-- Divisórias de Section
+- Divisórias de Section ??
 - Fade in animation nas sections
-- Header fixo
+- Header fixo ??
 
 Acessibilidade e Responsividade:
-- Trocar 'px' por '%' - Tributar a classe main com width.
 - Responsividade dinâmica
-- Substituir PX por REM onde possível
+- Substituir PX por REM onde possível 
 
 Section Inicio:
 - Importar arte
 - Animar arte
 
 Section Sobre:
+- Adicionar Fundo ou decoração
 - Editar avatar (talvez)
 
 Section Projetos:
 - Destacar navegação selecionada
 
 Section Habilidades: 
-- Tudo
-- Elaborar interatividade
+- subgrupo FRAMEWORKS
 
