@@ -5,6 +5,7 @@ Geral:
 - Header fixo
 
 Acessibilidade e Responsividade:
+- Trocar 'px' por '%' - Tributar a classe main com width.
 - Responsividade dinâmica
 - Substituir PX por REM onde possível
 

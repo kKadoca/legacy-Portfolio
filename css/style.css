@@ -23,13 +23,12 @@ a {
 header {
     height: 70px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 74px; /* lucky number */
+    padding: 0px 250px;
 }
 
 section {
-    height: 650px;
     padding: 25px;
     text-align: center;
 }
@@ -48,6 +47,7 @@ h2 {
     width: fit-content;
     border: 3px solid;
     border-radius: 7px;
+    cursor: pointer;
 }
 
 .b1 {
@@ -66,6 +66,7 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 650px;
     gap: 250px;
 }
 
@@ -88,7 +89,6 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 90px;
 }
 
 .sobre button {
@@ -129,6 +129,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 .slides {
@@ -192,13 +193,28 @@ h2 {
     padding-bottom: 50px;
 }
 
-.habilidades {
+.subgrupo {
+    background-color: #f2f2f2;
+    height: fit-content;
+    width: 1040px;
+    border-radius: 30px;
+    margin-bottom: 25px;
+    padding-bottom: 35px;
+    box-shadow: 12px 12px 15px rgba(0, 0, 0, 0.40);
+}
+
+.subgrupo h3{
+    text-align: start;
+    padding: 20px 60px;
+}
+
+.grid {
     display: grid;
     grid-template-columns: auto auto auto;
     height: fit-content;
     width: fit-content;
     gap: 60px 30px;
-    margin-bottom: 30px;
+    margin: auto;
 }
 
 .card-habilidade {
@@ -217,7 +233,7 @@ h2 {
     padding-top: 3px;
 }
 
-.habilidade-descricao p {
+.habilidade-descricao h5 {
     padding-top: 23px;
 }
 

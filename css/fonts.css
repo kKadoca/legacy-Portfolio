@@ -84,5 +84,9 @@ footer {
 
 /* tela de habilidades */
 .habilidade-descricao {
-    font: normal 18px Cafe, Arial, Helvetica, sans-serif;
+    font: normal 20px Cafe, Arial, Helvetica, sans-serif;
+}
+
+.subgrupo h3{
+    font: normal 40px CafeBold, Arial, Helvetica, sans-serif;
 }

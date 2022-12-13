@@ -4,7 +4,6 @@
 body {
     color: #343334;
 }
-
 header {
     background-color: #F2913D;
 }
@@ -29,7 +28,7 @@ header {
 
 .botao:hover {
     background-color: #F2913D;
-    transition: .3s;
+    transition: .6s;
 }
 
 /* tela sobre mim */
@@ -44,7 +43,7 @@ header {
 
 .selecao:hover {
     background-color: #F2913D;
-    transition: .3s;
+    transition: .6s;
 }
 
 .descricao-projeto {
