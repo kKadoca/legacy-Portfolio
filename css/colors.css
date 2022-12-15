@@ -62,9 +62,12 @@ header {
 /* footer */
 footer {
     background-color: #343334;
-    color: #f2f2f2;
 }
 
 .footer {
     color: #f2f2f2;
+}
+
+.footer:hover {
+    color: #575958;
 }

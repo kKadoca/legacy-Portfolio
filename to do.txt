@@ -1,10 +1,8 @@
 Geral:
-- JavaScript
-- Divisórias de Section ??
-- Fade in animation nas sections
-- Header fixo ??
+- ::fadein animation nas sections
 
 Acessibilidade e Responsividade:
+- Transcrever para Inglês
 - Responsividade dinâmica
 - Substituir PX por REM onde possível 
 
@@ -13,12 +11,14 @@ Section Inicio:
 - Animar arte
 
 Section Sobre:
-- Adicionar Fundo ou decoração
-- Editar avatar (talvez)
+- Adicionar Fundo de texto
+- ::fadein do texto (cima para baixo)
+- Editar avatar (temático natal)
 
 Section Projetos:
+- Animation: de baixo para cima ::fadein (1º nav 2º cards)
 - Destacar navegação selecionada
 
-Section Habilidades: 
+Section Habilidades:
 - subgrupo FRAMEWORKS
 

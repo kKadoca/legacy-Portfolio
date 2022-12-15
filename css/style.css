@@ -25,7 +25,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 250px;
+    padding: 0px 100px;
 }
 
 section {
@@ -209,28 +209,31 @@ h2 {
 }
 
 .grid {
-    display: grid;
-    grid-template-columns: auto auto auto;
+    display: flex;
+    flex-wrap: wrap;
     height: fit-content;
-    width: fit-content;
-    gap: 60px 30px;
-    margin: auto;
+    width: 97%;
+    gap: 40px 30px;
+    margin: 0px 30px;
 }
 
 .card-habilidade {
     display: flex;
     padding: 15px;
     height: 70px;
-    width: 270px;
+    width: 70px;
     gap: 20px;
     border-radius: 20px;
     border: 3px solid #343334;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.40);
+    overflow: hidden;
+    animation: none;
 }
 
 .habilidade-descricao {
     text-align: start;
     padding-top: 3px;
+    opacity: 0;
 }
 
 .habilidade-descricao h5 {

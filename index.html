@@ -12,10 +12,11 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/colors.css">
     <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/animation.css">
 </head>
 <body>
     <header>
-        <img src="img/logo-dragon-cinza1.png" alt="logo-dragao" height="60px">
+        <img id="drag1" src="img/logo-dragon-cinza1.png" alt="logo-dragao" height="60px">
         <nav>
             <ul>
                 <li><a class="header" href="#inicio">INÍCIO</a></li>
@@ -24,7 +25,7 @@
                 <li><a class="header" href="#habilidades">HABILIDADES</a></li>
             </ul>
         </nav>
-        <img src="img/logo-dragon-cinza2.png" alt="logo-dragao" height="60px">
+        <img id="drag2" src="img/logo-dragon-cinza2.png" alt="logo-dragao" height="60px">
     </header>
     <main>
         <section id="inicio">
@@ -138,33 +139,33 @@
                 <h3>Linguagens</h3>
                 <div class="grid">
                     <!-- linguagem 01 -->
-                    <div class="card-habilidade">
+                    <div id="1" class="card-habilidade" onclick="expandCard(1)">
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="icone-html" height="70px">
-                        <div class="habilidade-descricao">
+                        <div id="d1" class="habilidade-descricao">
                             <h4>HTML5</h4>
                             <h5>Experiência: 7 meses</h5>
                         </div>
                     </div>
                     <!-- linguagem 02 -->
-                    <div class="card-habilidade">
+                    <div id="2" class="card-habilidade" onclick="expandCard(2)">
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="icone-css" height="70px">
-                        <div class="habilidade-descricao">
+                        <div id="d2" class="habilidade-descricao">
                             <h4>CSS3</h4>
                             <h5>Experiência: 7 meses</h5>
                         </div>
                     </div>
                     <!-- linguagem 03 -->
-                    <div class="card-habilidade">
+                    <div id="3" class="card-habilidade" onclick="expandCard(3)">
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="icone-js" height="70px">
-                        <div class="habilidade-descricao">
+                        <div id="d3" class="habilidade-descricao">
                             <h4>JavaScript</h4>
                             <h5>Experiência: 6 meses</h5>
                         </div>
                     </div>
                     <!-- linguagem 04 -->
-                    <div class="card-habilidade">
+                    <div id="4" class="card-habilidade" onclick="expandCard(4)">
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="icone-c" height="70px">
-                        <div class="habilidade-descricao">
+                        <div id="d4" class="habilidade-descricao">
                             <h4>C</h4>
                             <h5>Experiência: 6 meses</h5>
                         </div>
@@ -175,33 +176,33 @@
                 <h3>Ferramentas</h3>
                 <div class="grid">
                     <!-- ferramenta 01 -->
-                    <div class="card-habilidade">
+                    <div id="5" class="card-habilidade" onclick="expandCard(5)">
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="icone-postgre" height="70px">
-                        <div class="habilidade-descricao">
+                        <div id="d5" class="habilidade-descricao">
                             <h4>PostgreSQL</h4>
                             <h5>Experiência: 3 meses</h5>
                         </div>
                     </div>
                     <!-- ferramenta 02 -->
-                    <div class="card-habilidade">
+                    <div id="6" class="card-habilidade" onclick="expandCard(6)">
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="icone-mysql" height="70px">
-                        <div class="habilidade-descricao">
+                        <div id="d6" class="habilidade-descricao">
                             <h4>MySQL</h4>
                             <h5>Experiência: 3 meses</h5>
                         </div>
                     </div>
                     <!-- ferramenta 03 -->
-                    <div class="card-habilidade">
+                    <div id="7" class="card-habilidade" onclick="expandCard(7)">
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="icone-git" height="70px">
-                        <div class="habilidade-descricao">
+                        <div id="d7" class="habilidade-descricao">
                             <h4>Git</h4>
                             <h5>Experiência: 3 meses</h5>
                         </div>
                     </div>
                     <!-- ferramenta 04 -->
-                    <div class="card-habilidade">
+                    <div id="8" class="card-habilidade" onclick="expandCard(8)">
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="icone-vscode" height="70px">
-                        <div class="habilidade-descricao">
+                        <div id="d8" class="habilidade-descricao">
                             <h4>VsCode</h4>
                             <h5>Experiência: 12 meses</h5>
                         </div>
@@ -211,7 +212,7 @@
         </section>
     </main>
     <footer>
-        <img src="img/logo-dragon-laranja.png" alt="logo-dragao" height="85px">
+        <img id="drag3" src="img/logo-dragon-laranja.png" alt="logo-dragao" height="85px">
         <ul>
             <li>
                 <a class="footer" href="#inicio">INÍCIO</a>
@@ -227,13 +228,14 @@
             </li>
         </ul>
         <div class="medias">
-            <a href="https://instagram.com/kKadoca" target="_blank" rel="external">
+            <a id="media1" href="https://instagram.com/kKadoca" target="_blank" rel="external">
                 <img src="img/insta-icon-branco.png" alt="insta-icon" height="40px"></a>
-            <a href="https://github.com/kKadoca" target="_blank" rel="external">
+            <a id="media2" href="https://github.com/kKadoca" target="_blank" rel="external">
                 <img src="img/github-icon-branco.png" alt="github-icon" height="40px"></a>
-            <a href="https://www.linkedin.com/in/carlos-eduardo-terra-62215822b/" target="_blank" rel="external">
+            <a id="media3" href="https://www.linkedin.com/in/carlos-eduardo-terra-62215822b/" target="_blank" rel="external">
                 <img src="img/linkedin-icon-branco.png" alt="linkedin-icon" height="40px"></a>
         </div>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
