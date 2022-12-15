@@ -1,9 +1,14 @@
 @charset "UTF-8";
 
 /* geral */
+h2 {
+    color: white;
+}
+
 body {
     color: #343334;
 }
+
 header {
     background-color: #F2913D;
 }
@@ -34,6 +39,10 @@ header {
 /* tela sobre mim */
 #sobre {
     background-color: #F2913D;
+}
+
+.texto-section {
+    background-color: #f2f2f2;
 }
 
 /* tela de projetos */

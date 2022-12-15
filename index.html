@@ -13,8 +13,9 @@
     <link rel="stylesheet" href="css/colors.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/keyframes.css">
 </head>
-<body>
+<body onload="start()">
     <header>
         <img id="drag1" src="img/logo-dragon-cinza1.png" alt="logo-dragao" height="60px">
         <nav>
@@ -50,9 +51,11 @@
         </section>
         <section id="sobre">
             <h2>SOBRE MIM</h2>
-            <div class="sobre">
-                <div>
-                    <p class="texto-section">Meu nome é Carlos Eduardo, sou graduando em Sistemas de Informação na UFMS e atualmente atuo como assistente contábil em uma empresa de distribuição de alimentos. Com a decisão de estudar por conta própria, tenho desenvolvido alguns projetos web há seis meses e mantendo o estudo constante. Com isso, pude constatar a vastidão de conteúdo que eu me encontro em frente e desenvolver um engajamento crescente em relação ao meu próprio crescimento intelectual. No momento, busco uma oportunidade de empenhar em uma função mais formal e ingressar oficialmente no mercado, tendo como diretriz, <em>agregar</em> sempre mais valor.</p>
+            <div class="section-sobre">
+                <div class="coluna-sobre">
+                    <div id="aboutTextBox" class="texto-section">
+                        <p id="aboutText">Meu nome é Carlos Eduardo, sou graduando em Sistemas de Informação na UFMS e atualmente atuo como assistente contábil em uma empresa de distribuição de alimentos. Com a decisão de estudar por conta própria, tenho desenvolvido alguns projetos web há seis meses e mantendo o estudo constante. Com isso, pude constatar a vastidão de conteúdo que eu me encontro em frente e desenvolver um engajamento crescente em relação ao meu próprio crescimento intelectual. No momento, busco uma oportunidade de empenhar em uma função mais formal e ingressar oficialmente no mercado, tendo como diretriz, <em>agregar</em> sempre mais valor.</p>    
+                    </div> 
                     <a href="download/Carlos-Eduardo-Terra-Curriculum.pdf" target="_blank">
                         <button class="botao b1">
                         <img src="img/download-icon.png" alt="icone de download" height="25px">
@@ -63,14 +66,14 @@
         </section>
         <section id="projetos">
             <h2>PROJETOS</h2>
-            <div class="projetos">
-                <div class="navegacao-projetos">
+            <div class="section-projetos">
+                <div id="navProjects" class="navegacao-projetos">
                     <label class="selecao" for="proj1">Gerenciador de Lista</label>
                     <label class="selecao" for="proj2">Hora do Dia</label>
                     <label class="selecao" for="proj3">Loja Virtual</label>
                     <label class="selecao" for="proj4">Em Breve</label>
                 </div> 
-                <div class="slides">
+                <div id="cardSlider" class="card-slider">
                     <input type="radio" name="projeto" id="proj1" checked>
                     <input type="radio" name="projeto" id="proj2">
                     <input type="radio" name="projeto" id="proj3">
@@ -135,9 +138,9 @@
         </section>
         <section id="habilidades">
             <h2>HABILIDADES</h2>
-            <div class="subgrupo">
+            <div id="languageCard" class="subgrupo">
                 <h3>Linguagens</h3>
-                <div class="grid">
+                <div id="languageGrid" class="grid">
                     <!-- linguagem 01 -->
                     <div id="1" class="card-habilidade" onclick="expandCard(1)">
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="icone-html" height="70px">
@@ -172,9 +175,9 @@
                     </div>
                 </div>
             </div>
-            <div class="subgrupo">
+            <div id="toolCard" class="subgrupo">
                 <h3>Ferramentas</h3>
-                <div class="grid">
+                <div id="toolGrid" class="grid">
                     <!-- ferramenta 01 -->
                     <div id="5" class="card-habilidade" onclick="expandCard(5)">
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="icone-postgre" height="70px">

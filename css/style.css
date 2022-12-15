@@ -39,6 +39,7 @@ input {
 
 h2 {
     margin-bottom: 30px;
+    opacity: .2;
 }
 
 .botao {
@@ -82,21 +83,22 @@ h2 {
 
 /* tela sobre mim */
 #sobre {
-    height: 560px;
+    height: 580px;
 }
 
-.sobre {
+.section-sobre {
     display: flex;
     justify-content: center;
-    align-items: center;
-}
-
-.sobre button {
-    margin-top: 30px;
+    align-items: flex-start;
 }
 
 .texto-section {
-    width: 515px;
+    width: 420px;
+    border-radius: 30px;
+    padding: 22px 15px;
+    box-shadow: 12px 12px 15px rgba(0, 0, 0, 0.40);
+    margin-bottom: 10px;
+    text-align: initial;
 }
 
 /* tela de projetos */
@@ -107,7 +109,7 @@ h2 {
     align-items: center;
 }
 
-.projetos {
+.section-projetos {
     display: flex;
     width: 950px;
     height: 450px;
@@ -132,7 +134,7 @@ h2 {
     cursor: pointer;
 }
 
-.slides {
+.card-slider {
     width: 70%;
     height: 400%;   /* n.100 */
     border-left: 1px solid #343334;
@@ -196,7 +198,7 @@ h2 {
 .subgrupo {
     background-color: #f2f2f2;
     height: fit-content;
-    width: 1040px;
+    width: 700px;
     border-radius: 30px;
     margin-bottom: 25px;
     padding-bottom: 35px;
@@ -221,7 +223,7 @@ h2 {
     display: flex;
     padding: 15px;
     height: 70px;
-    width: 70px;
+    width: 270px;
     gap: 20px;
     border-radius: 20px;
     border: 3px solid #343334;
@@ -233,7 +235,6 @@ h2 {
 .habilidade-descricao {
     text-align: start;
     padding-top: 3px;
-    opacity: 0;
 }
 
 .habilidade-descricao h5 {

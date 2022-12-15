@@ -1,5 +1,5 @@
 Geral:
-- ::fadein animation nas sections
+- ONSCROLL animation
 
 Acessibilidade e Responsividade:
 - Transcrever para Inglês
@@ -11,13 +11,7 @@ Section Inicio:
 - Animar arte
 
 Section Sobre:
-- Adicionar Fundo de texto
-- ::fadein do texto (cima para baixo)
 - Editar avatar (temático natal)
-
-Section Projetos:
-- Animation: de baixo para cima ::fadein (1º nav 2º cards)
-- Destacar navegação selecionada
 
 Section Habilidades:
 - subgrupo FRAMEWORKS
