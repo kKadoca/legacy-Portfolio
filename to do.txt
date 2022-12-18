@@ -1,17 +1,13 @@
 Geral:
-- ONSCROLL animation
+- Section Bibliografia
 
 Acessibilidade e Responsividade:
-- Transcrever para Inglês
 - Responsividade dinâmica
 - Substituir PX por REM onde possível 
 
 Section Inicio:
 - Importar arte
 - Animar arte
-
-Section Sobre:
-- Editar avatar (temático natal)
 
 Section Habilidades:
 - subgrupo FRAMEWORKS

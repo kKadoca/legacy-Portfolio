@@ -1,15 +1,28 @@
 function start() {
     setAllForAnimation()
-    
-    startAboutAnimation()
-    startProjectsAnimation()
-    startSkillsAnimation()
+    checkScrollPositionForAnimation()
+
+    window.addEventListener('scroll', function() {
+        checkScrollPositionForAnimation() 
+    })
 }
 
 function setAllForAnimation() {
     setAboutAnimation()
     setProjectsAnimation()
     setSkillsAnimation()
+}
+
+function checkScrollPositionForAnimation() {
+    if (document.documentElement.scrollTop > 300 ) {
+        startAboutAnimation()
+    }
+    if (document.documentElement.scrollTop > 800 ) {
+        startProjectsAnimation()
+    }
+    if (document.documentElement.scrollTop > 1500 ) {
+        startSkillsAnimation()
+    }
 }
 
 function setAboutAnimation() {
