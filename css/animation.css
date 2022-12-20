@@ -1,10 +1,6 @@
 @charset "UTF-8";
 
 /* general */
-h2 {
-    animation: showUp 1.5s ease-out forwards;
-}
-
 .botao {
     animation: floating 2.5s ease-in-out infinite alternate;
 }

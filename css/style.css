@@ -39,7 +39,6 @@ input {
 
 h2 {
     margin-bottom: 30px;
-    opacity: .2;
 }
 
 .botao {
@@ -214,7 +213,7 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     height: fit-content;
-    width: 97%;
+    width: 96%;
     gap: 40px 30px;
     margin: 0px 30px;
 }

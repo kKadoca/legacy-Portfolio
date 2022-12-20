@@ -28,7 +28,10 @@ function checkScrollPositionForAnimation() {
 function setAboutAnimation() {
     let aboutText = document.getElementById('aboutText')
     let aboutTextBox = document.getElementById('aboutTextBox')
+    let aboutTitle = document.getElementById('aboutTitle')
 
+    aboutTitle.style.opacity = 0;
+    aboutTitle.style.color = "white";
     aboutText.style.opacity = 0;
     aboutTextBox.style.opacity = 0;
     aboutTextBox.style.transform = "translateX(-70%)"
@@ -37,7 +40,10 @@ function setAboutAnimation() {
 function setProjectsAnimation() {
     let navProjects = document.getElementById('navProjects')
     let cardSlider = document.getElementById('cardSlider')
+    let projectsTitle = document.getElementById('projectsTitle')
 
+    projectsTitle.style.opacity = 0;
+    projectsTitle.style.color = "white";
     navProjects.style.opacity = 0;
     cardSlider.style.opacity = 0;
     navProjects.style.transform = "translateY(140%)"
@@ -45,6 +51,10 @@ function setProjectsAnimation() {
 }
 
 function setSkillsAnimation() {
+    let skillsTitle = document.getElementById('skillsTitle')
+
+    skillsTitle.style.opacity = 0;
+    skillsTitle.style.color = "white";
     setSkillSubgroupsAnimation()
     setSkillCardsAnimation()
 }
@@ -78,16 +88,19 @@ function setSkillCardsAnimation() {
 }
 
 function startAboutAnimation() {
+    aboutTitle.style.animation = "showUp 1.5s ease-out forwards"
     aboutTextBox.style.animation = "showUp .7s ease-out forwards"
     aboutText.style.animation = "showUp .3s .8s ease-in-out forwards"
 }
 
 function startProjectsAnimation() {
+    projectsTitle.style.animation = "showUp 1.5s ease-out forwards"
     navProjects.style.animation = "showUp 1s ease-out forwards"
     cardSlider.style.animation = "showUp 1s .3s ease-in-out forwards"
 }
 
 function startSkillsAnimation() {
+    skillsTitle.style.animation = "showUp 1.5s ease-out forwards"
     languageCard.style.animation = "showUp .8s ease-out forwards"
     languageGrid.style.animation = "showUp .8s .2s ease-out forwards"
     toolCard.style.animation = "showUp .8s .2s ease-out forwards"
