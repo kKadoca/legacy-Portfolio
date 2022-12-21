@@ -1,13 +1,10 @@
-Geral:
-- Section Bibliografia
-
 Acessibilidade e Responsividade:
 - Responsividade dinâmica
 - Substituir PX por REM onde possível 
 
-Section Inicio:
-- Importar arte
-- Animar arte
+>>>> AFTER::
+Geral:
+- Section Bibliografia
 
 Section Habilidades:
 - subgrupo FRAMEWORKS

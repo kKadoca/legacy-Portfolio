@@ -60,14 +60,39 @@ h2 {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.20);
 }
 
-
 /* tela de inicio */
 #inicio {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 650px;
-    gap: 250px;
+    gap: 100px;
+}
+
+.arte-animada {
+    height: 100%;
+    padding-left: 300px;
+}
+
+#gifInicio {
+    height: 700px;
+    position: absolute;
+    transform: translate(-65%, -3.6%);
+    opacity: 0;
+}
+
+#arteInicio {
+    height: 700px;
+    position: absolute;
+    transform: translate(-85%, -3.5%);
+}
+
+#container {
+    height: 700px;
+    width: 425px;
+    position: absolute;
+    transform: translate(-85%, -3.6%);
+    opacity: 0;
 }
 
 .saudacao {

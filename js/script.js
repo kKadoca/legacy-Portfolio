@@ -1,5 +1,6 @@
 function start() {
     setAllForAnimation()
+    startHomeAnimation()
     checkScrollPositionForAnimation()
 
     window.addEventListener('scroll', function() {
@@ -8,6 +9,7 @@ function start() {
 }
 
 function setAllForAnimation() {
+    setHomeAnimation()
     setAboutAnimation()
     setProjectsAnimation()
     setSkillsAnimation()
@@ -25,15 +27,21 @@ function checkScrollPositionForAnimation() {
     }
 }
 
+function setHomeAnimation() {
+    let container = document.getElementById('container')
+
+    container.style.opacity = 1;
+}
+
 function setAboutAnimation() {
     let aboutText = document.getElementById('aboutText')
     let aboutTextBox = document.getElementById('aboutTextBox')
     let aboutTitle = document.getElementById('aboutTitle')
 
-    aboutTitle.style.opacity = 0;
-    aboutTitle.style.color = "white";
-    aboutText.style.opacity = 0;
-    aboutTextBox.style.opacity = 0;
+    aboutTitle.style.opacity = 0
+    aboutTitle.style.color = "white"
+    aboutText.style.opacity = 0
+    aboutTextBox.style.opacity = 0
     aboutTextBox.style.transform = "translateX(-70%)"
 }
 
@@ -42,10 +50,10 @@ function setProjectsAnimation() {
     let cardSlider = document.getElementById('cardSlider')
     let projectsTitle = document.getElementById('projectsTitle')
 
-    projectsTitle.style.opacity = 0;
-    projectsTitle.style.color = "white";
-    navProjects.style.opacity = 0;
-    cardSlider.style.opacity = 0;
+    projectsTitle.style.opacity = 0
+    projectsTitle.style.color = "white"
+    navProjects.style.opacity = 0
+    cardSlider.style.opacity = 0
     navProjects.style.transform = "translateY(140%)"
     cardSlider.style.transform = "translateY(30%)"
 }
@@ -53,8 +61,8 @@ function setProjectsAnimation() {
 function setSkillsAnimation() {
     let skillsTitle = document.getElementById('skillsTitle')
 
-    skillsTitle.style.opacity = 0;
-    skillsTitle.style.color = "white";
+    skillsTitle.style.opacity = 0
+    skillsTitle.style.color = "white"
     setSkillSubgroupsAnimation()
     setSkillCardsAnimation()
 }
@@ -65,12 +73,12 @@ function setSkillSubgroupsAnimation() {
     let toolCard = document.getElementById('toolCard')
     let toolGrid = document.getElementById('toolGrid')
 
-    languageGrid.style.opacity = 0;
-    languageCard.style.opacity = 0;
+    languageGrid.style.opacity = 0
+    languageCard.style.opacity = 0
     languageGrid.style.transform = "translateX(150%)"
     languageCard.style.transform = "translateX(150%)"
-    toolGrid.style.opacity = 0;
-    toolCard.style.opacity = 0;
+    toolGrid.style.opacity = 0
+    toolCard.style.opacity = 0
     toolGrid.style.transform = "translateX(150%)"
     toolCard.style.transform = "translateX(150%)"
 }
@@ -83,8 +91,15 @@ function setSkillCardsAnimation() {
         element.style.width = "70px"
     })
     skillDescription.forEach(element => {
-        element.style.opacity = 0;
+        element.style.opacity = 0
     })
+}
+
+function startHomeAnimation() {
+    let gif = document.getElementById('gifInicio')
+
+    gif.style.animation = "fire 4s forwards"
+    container.style.animation = "goUp .3s 2.6s ease-out forwards"
 }
 
 function startAboutAnimation() {

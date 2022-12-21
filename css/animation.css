@@ -2,7 +2,7 @@
 
 /* general */
 .botao {
-    animation: floating 2.5s ease-in-out infinite alternate;
+    animation: floatingY 2.5s ease-in-out infinite alternate;
 }
 
 #drag1:hover {
@@ -19,12 +19,16 @@
 
 /* inicio section */
 .nome-inicio {
-    animation: floating .5s linear infinite alternate;
+    animation: floatingY .5s linear infinite alternate;
+}
+
+#arteInicio {
+    animation: floatingX 2.5s ease-in-out infinite alternate;
 }
 
 /* habilidades section */
 .card-habilidade {
-    animation: floating 2.5s ease-in-out infinite alternate;
+    animation: floatingY 2.5s ease-in-out infinite alternate;
 }
 
 /* footer */
