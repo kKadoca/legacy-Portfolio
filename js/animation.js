@@ -1,6 +1,9 @@
 function start() {
     setAllForAnimation()
-    startHomeAnimation()
+    setTimeout(function(){
+        startHomeAnimation()
+    }, 2000);
+
     checkScrollPositionForAnimation()
 
     window.addEventListener('scroll', function() {
@@ -96,10 +99,12 @@ function setSkillCardsAnimation() {
 }
 
 function startHomeAnimation() {
+    let homeBg = document.getElementById('inicio')
     let gif = document.getElementById('gifInicio')
 
-    gif.style.animation = "fire 4s forwards"
-    container.style.animation = "goUp .3s 2.6s ease-out forwards"
+    homeBg.style.animation = "bg .1s .9s ease-in-out forwards"
+    gif.style.animation = "fire 1s backwards"
+    container.style.animation = "goUp .3s .4s linear forwards"
 }
 
 function startAboutAnimation() {
@@ -120,15 +125,4 @@ function startSkillsAnimation() {
     languageGrid.style.animation = "showUp .8s .2s ease-out forwards"
     toolCard.style.animation = "showUp .8s .2s ease-out forwards"
     toolGrid.style.animation = "showUp .8s .4s ease-out forwards"
-}
-
-function expandCard(id) {
-    let card = document.getElementById(`${id}`)
-    card.style.animation = "extend 1s cubic-bezier(.41,-0.3,.6,1.13) forwards"
-    showUpText(id)
-}
-
-function showUpText(id) {
-    let content = document.getElementById(`d${id}`)
-    content.style.animation = "showUp .3s .8s linear forwards"
 }

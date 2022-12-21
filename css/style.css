@@ -21,7 +21,7 @@ a {
 }
 
 header {
-    height: 70px;
+    height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -267,7 +267,7 @@ h2 {
 
 /* footer */
 footer {
-    height: 75px;
+    height: 100px;
     padding: 10px;
     display: flex;
     gap: 100px;
@@ -275,7 +275,15 @@ footer {
     align-items: center;
 }
 
+#drag3 {
+    height: 100px;
+}
+
 .medias {
     display: flex;
     gap: 40px;
+}
+
+.medias img {
+    height: 60px;
 }

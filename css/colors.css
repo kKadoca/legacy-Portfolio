@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #F2913D;
+    background: radial-gradient(circle, rgba(242,145,61,1) 80%, rgba(218,132,58,1) 100%);
 }
 
 .header {
@@ -18,8 +18,8 @@ header {
 }
 
 /* tela de inicio */
-#inicio {
-    background-color: #f2f2f2;
+#inicio {    
+    background: #f2f2f2
 }
 
 .botao {
@@ -34,7 +34,7 @@ header {
 
 /* tela sobre mim */
 #sobre {
-    background-color: #F2913D;
+    background: radial-gradient(circle, rgba(242,145,61,1) 60%, rgba(218,132,58,1) 100%);
 }
 
 .texto-section {
@@ -43,7 +43,7 @@ header {
 
 /* tela de projetos */
 #projetos {
-    background-color: #f2f2f2;
+    background: radial-gradient(circle, rgba(242,242,242,1) 60%, rgba(224,224,224,1) 100%);
 }
 
 .selecao:hover {
@@ -57,7 +57,7 @@ header {
 
 /* tela de habilidades */
 #habilidades {
-    background-color: #F2913D;
+    background: radial-gradient(circle, rgba(242,145,61,1) 60%, rgba(218,132,58,1) 100%);
 }
 
 .card-habilidade {

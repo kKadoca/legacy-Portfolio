@@ -17,7 +17,7 @@
 </head>
 <body onload="start()">
     <header>
-        <img id="drag1" src="icons/logo-dragon-cinza1.png" alt="logo-dragao" height="60px">
+        <img id="drag1" src="icons/drag1.png" alt="logo-dragao" height="80px" onclick="spitFire(`drag1`)">
         <nav>
             <ul>
                 <li><a class="header" href="#inicio">INÍCIO</a></li>
@@ -27,14 +27,14 @@
                 <!--<li><a class="header" href="#bibliografia">BIBLIOGRAFIA</a></li>-->
             </ul>
         </nav>
-        <img id="drag2" src="icons/logo-dragon-cinza2.png" alt="logo-dragao" height="60px">
+        <img id="drag2" src="icons/drag2.png" alt="logo-dragao" height="80px" onclick="spitFire(`drag2`)">
     </header>
     <main>
         <section id="inicio">
             <div id ="animacaoInicio" class="arte-animada">
-                <img id="arteInicio" src="img/inicio/testek.png" alt="arte-kadu-600">
+                <img id="arteInicio" src="img/inicio/kadoca.png" alt="arte-kadu-600">
                 <img id="container" src="img/inicio/container.png" alt="card-que-esconde">
-                <img id="gifInicio" src="img/inicio/gif1.gif" alt="animation">
+                <img id="gifInicio" src="gifs/fireR.gif" alt="animacao-cuspe-de-fogo">
             </div>
             <div class="saudacao">
                 <p class="texto-inicio">Ola, eu sou o</p>
@@ -59,7 +59,7 @@
             <div class="section-sobre">
                 <div class="coluna-sobre">
                     <div id="aboutTextBox" class="texto-section">
-                        <p id="aboutText">Meu nome é Carlos Eduardo, sou graduando em Sistemas de Informação na UFMS e atualmente atuo como assistente contábil em uma empresa de distribuição de alimentos. Com a decisão de estudar por conta própria, tenho desenvolvido alguns projetos web há seis meses e mantendo o estudo constante. Com isso, pude constatar a vastidão de conteúdo que eu me encontro em frente e desenvolver um engajamento crescente em relação ao meu próprio crescimento intelectual. No momento, busco uma oportunidade de empenhar em uma função mais formal e ingressar oficialmente no mercado, tendo como diretriz, <em>agregar</em> sempre mais valor.</p>    
+                        <p id="aboutText">Meu nome é Carlos Eduardo, sou graduando em Sistemas de Informação na UFMS e atualmente atuo como assistente contábil em uma empresa de distribuição de alimentos. Com a decisão de estudar por conta própria, tenho desenvolvido alguns projetos web há alguns meses e mantendo o estudo constante. Com isso, pude constatar a vastidão de conteúdo que eu me encontro em frente e desenvolver um engajamento crescente em relação ao meu próprio crescimento intelectual. No momento, busco uma oportunidade de empenhar em uma função mais formal e ingressar oficialmente no mercado, tendo como diretriz, <em>agregar</em> sempre mais valor.</p>    
                     </div> 
                     <a href="download/Carlos-Eduardo-Terra-Curriculum.pdf" target="_blank">
                         <button class="botao b1">
@@ -221,7 +221,7 @@
         <!-- to do <section id="bibliografia"> </section> -->
     </main>
     <footer>
-        <img id="drag3" src="icons/logo-dragon-laranja.png" alt="logo-dragao" height="85px">
+        <img id="drag3" src="gifs/spitfire-drag3.gif" alt="logo-dragao">
         <ul>
             <li>
                 <a class="footer" href="#inicio">INÍCIO</a>
@@ -241,13 +241,14 @@
         </ul>
         <div class="medias">
             <a id="media1" href="https://instagram.com/kKadoca" target="_blank" rel="external">
-                <img src="icons/insta-icon-branco.png" alt="insta-icon" height="40px"></a>
+                <img src="icons/insta-icon-branco.png" alt="insta-icon"></a>
             <a id="media2" href="https://github.com/kKadoca" target="_blank" rel="external">
-                <img src="icons/github-icon-branco.png" alt="github-icon" height="40px"></a>
+                <img src="icons/github-icon-branco.png" alt="github-icon"></a>
             <a id="media3" href="https://www.linkedin.com/in/carlos-eduardo-terra-62215822b/" target="_blank" rel="external">
-                <img src="icons/linkedin-icon-branco.png" alt="linkedin-icon" height="40px"></a>
+                <img src="icons/linkedin-icon-branco.png" alt="linkedin-icon"></a>
         </div>
     </footer>
-    <script src="js/script.js"></script>
+    <script src="js/animation.js"></script>
+    <script src="js/features.js"></script>
 </body>
 </html>

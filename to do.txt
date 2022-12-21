@@ -4,6 +4,7 @@ Acessibilidade e Responsividade:
 
 >>>> AFTER::
 Geral:
+- Melhorar Curriculo
 - Section Bibliografia
 
 Section Habilidades:

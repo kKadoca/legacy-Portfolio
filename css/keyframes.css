@@ -12,7 +12,21 @@
     80% { transform: translate(-1px, -1px) rotate(1deg); }
     90% { transform: translate(1px, 1px) rotate(0deg); }
     100% { transform: translate(1px, -1px) rotate(-1deg); }
-  }
+}
+
+@keyframes shakeAngular {
+    0% { transform: translate(1px, 1px) rotate(-15deg); }
+    10% { transform: translate(-1px, -1px) rotate(-16deg); }
+    20% { transform: translate(-1px, 0px) rotate(-14deg); }
+    30% { transform: translate(2px, 1px) rotate(-15deg); }
+    40% { transform: translate(1px, -1px) rotate(-14deg); }
+    50% { transform: translate(-1px, 1px) rotate(-16deg); }
+    60% { transform: translate(-2px, 1px) rotate(-15deg); }
+    70% { transform: translate(2px, 1px) rotate(-16deg); }
+    80% { transform: translate(-1px, -1px) rotate(-14deg); }
+    90% { transform: translate(1px, 1px) rotate(-15deg); }
+    100% { transform: translate(1px, -1px) rotate(-16deg); }
+}
 
 @keyframes floatingY {
     100% {
@@ -54,19 +68,17 @@
 }
 
 @keyframes fire {
-    52% {
-        opacity: 0;
-    }
-    54% {
+    0% {
         opacity: 1;
-    }
-    75.9% {
-        opacity: 1;
-    }
-    76% {
-        opacity: 0;
     }
     100% {
-        opacity: 0;
+        opacity: 1;
+    }
+}
+
+@keyframes bg {
+
+    100% {
+        background: radial-gradient(circle, rgba(242,242,242,1) 22%, rgba(224,224,224,1) 62%);
     }
 }

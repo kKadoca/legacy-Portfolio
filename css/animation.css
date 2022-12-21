@@ -13,8 +13,8 @@
     animation: shake .5s infinite;
 }
 
-#drag3:hover {
-    animation: shake .5s infinite;
+#drag3 {
+    animation: shakeAngular .5s infinite;
 }
 
 /* inicio section */
@@ -29,6 +29,10 @@
 /* habilidades section */
 .card-habilidade {
     animation: floatingY 2.5s ease-in-out infinite alternate;
+}
+
+.card-habilidade:hover {
+    animation: expand .4s ease-out forwards;
 }
 
 /* footer */
