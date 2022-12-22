@@ -89,9 +89,9 @@ h2 {
 
 #container {
     height: 700px;
-    width: 425px;
+    width: 450px;
     position: absolute;
-    transform: translate(-85%, -3.6%);
+    transform: translate(-85.8%, -3%);
     opacity: 0;
 }
 
@@ -122,7 +122,7 @@ h2 {
     padding: 22px 15px;
     box-shadow: 12px 12px 15px rgba(0, 0, 0, 0.40);
     margin-bottom: 10px;
-    text-align: initial;
+    text-align: center;
 }
 
 /* tela de projetos */

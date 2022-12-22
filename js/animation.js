@@ -99,10 +99,8 @@ function setSkillCardsAnimation() {
 }
 
 function startHomeAnimation() {
-    let homeBg = document.getElementById('inicio')
     let gif = document.getElementById('gifInicio')
 
-    homeBg.style.animation = "bg .1s .9s ease-in-out forwards"
     gif.style.animation = "fire 1s backwards"
     container.style.animation = "goUp .3s .4s linear forwards"
 }

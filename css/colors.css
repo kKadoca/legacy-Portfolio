@@ -19,7 +19,7 @@ header {
 
 /* tela de inicio */
 #inicio {    
-    background: #f2f2f2
+    background: radial-gradient(circle, rgba(242,242,242,1) 22%, rgba(224,224,224,1) 62%);
 }
 
 .botao {
@@ -43,7 +43,7 @@ header {
 
 /* tela de projetos */
 #projetos {
-    background: radial-gradient(circle, rgba(242,242,242,1) 60%, rgba(224,224,224,1) 100%);
+    background: radial-gradient(circle, rgba(242,242,242,1) 60%, rgb(224, 224, 224) 100%);
 }
 
 .selecao:hover {

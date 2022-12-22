@@ -63,7 +63,7 @@
 @keyframes goUp {
     100% {
         height: 0px;
-        transform: translate(-85%, -20px);
+        transform: translate(-85.8% -20px);
     }
 }
 
