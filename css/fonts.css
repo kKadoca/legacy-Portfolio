@@ -1,8 +1,12 @@
 @charset "UTF-8";
 
-@font-face { /* Título */
-    font-family: 'Square';
-    src: url('../fonts/Square.ttf') format('truetype');
+:root {
+    --main: Brain;
+    --subtitle: TylerDurden;
+    --name: Patrick;
+    --text: Cafe;
+    --textB: CafeBold;
+    --default: sans-serif;
 }
 
 @font-face { /* Texto-Início e Botões*/
@@ -10,19 +14,14 @@
     src: url('../fonts/Brain.ttf') format('truetype');
 }
 
-@font-face { /* Nome-Início */
-    font-family: 'Patrick';
-    src: url('../fonts/Patrick.ttf') format('truetype');
-}
-
 @font-face { /* Navigation e Subtítulos*/
     font-family: 'TylerDurden';
     src: url('../fonts/TylerDurden.ttf') format('truetype');
 }
 
-@font-face { /* Corpo de texto*/
-    font-family: 'CafeBold';
-    src: url('../fonts/LG\ Cafe\ Bold.ttf') format('truetype');
+@font-face { /* Nome-Início */
+    font-family: 'Patrick';
+    src: url('../fonts/Patrick.ttf') format('truetype');
 }
 
 @font-face { /* Corpo de texto*/
@@ -30,25 +29,27 @@
     src: url('../fonts/LG\ Cafe.ttf') format('truetype');
 }
 
+@font-face { /* Corpo de texto*/
+    font-family: 'CafeBold';
+    src: url('../fonts/LG\ Cafe\ Bold.ttf') format('truetype');
+}
+
+
 /* geral */
 h2 {
-    font: bold 40px TylerDurden, Arial, Helvetica, sans-serif;
+    font: bold 40px var(--subtitle), var(--default);
 }
 
 header {
-    font: bold 25px Square, Arial, Helvetica, sans-serif;
-}
-
-.header {
-    font: bold 20px TylerDurden, Arial, Helvetica, sans-serif;
+    font: bold 20px var(--subtitle), var(--default);
 }
 
 footer {
-    font: normal 20px TylerDurden, Arial, Helvetica, sans-serif;
+    font: normal 20px var(--subtitle), var(--default);
 }
 
 .botao {
-    font: normal 27px Brain, Arial, Helvetica, sans-serif;
+    font: normal 27px var(--main), var(--default);
 }
 
 .b2 {
@@ -57,36 +58,36 @@ footer {
 
 /* tela de inicio */
 .texto-inicio {
-    font: normal 30px Brain, Arial, Helvetica, sans-serif;
+    font: normal 30px var(--main), var(--default);
 }
 
 .nome-inicio {
-    font: normal 160px Patrick, Arial, Helvetica, sans-serif;
+    font: normal 160px var(--name), var(--default);
 }
 
 /* tela sobre mim */
 .texto-section {
-    font: normal 20px CafeBold, Arial, Helvetica, sans-serif;
+    font: normal 20px var(--textB), var(--default);
 }
 
 /* tela de projetos */
 .selecao {
-    font: normal 25px TylerDurden, Arial, Helvetica, sans-serif;
+    font: normal 25px var(--subtitle), var(--default);
 }
 
 .texto-descricao h3 {
-    font: normal 25px Brain, Arial, Helvetica, sans-serif;
+    font: normal 25px var(--main), var(--default);
 }
 
 .texto-descricao p {
-    font: normal 18px CafeBold, Arial, Helvetica, sans-serif;
+    font: normal 18px var(--textB), var(--default);
 }
 
 /* tela de habilidades */
 .habilidade-descricao {
-    font: normal 20px Cafe, Arial, Helvetica, sans-serif;
+    font: normal 20px var(--text), var(--default);
 }
 
 .subgrupo h3{
-    font: normal 40px CafeBold, Arial, Helvetica, sans-serif;
+    font: normal 40px var(--textB), var(--default);
 }

@@ -1,8 +1,16 @@
 @charset "UTF-8";
 
+:root {
+    --cor1: #343334;
+    --cor2: #585759;
+    --cor3: #F2913D;
+    --cor4: #F2A663;
+    --cor5: #F2F2F2;
+}
+
 /* geral */
 body {
-    color: #343334;
+    color: var(--cor1);
 }
 
 header {
@@ -10,11 +18,11 @@ header {
 }
 
 .header {
-    color: #343334;
+    color: var(--cor1);
 }
 
 .header:hover {
-    color: #575958;
+    color: var(--cor2);
 }
 
 /* tela de inicio */
@@ -23,12 +31,12 @@ header {
 }
 
 .botao {
-    border-color: #343334;
-    color: #343334;
+    border-color: var(--cor1);
+    color: var(--cor1);
 }
 
 .botao:hover {
-    background-color: #F2913D;
+    background-color: var(--cor3);
     transition: .6s;
 }
 
@@ -38,7 +46,7 @@ header {
 }
 
 .texto-section {
-    background-color: #f2f2f2;
+    background-color: var(--cor5);
 }
 
 /* tela de projetos */
@@ -47,12 +55,12 @@ header {
 }
 
 .selecao:hover {
-    background-color: #F2913D;
+    background-color: var(--cor3);
     transition: .6s;
 }
 
 .descricao-projeto {
-    background-color: #f2f2f2;
+    background-color: var(--cor5);
 }
 
 /* tela de habilidades */
@@ -61,18 +69,18 @@ header {
 }
 
 .card-habilidade {
-    background-color: #f2f2f2;
+    background-color: var(--cor5);
 }
 
 /* footer */
 footer {
-    background-color: #343334;
+    background-color: var(--cor1);
 }
 
 .footer {
-    color: #f2f2f2;
+    color: var(--cor5);
 }
 
 .footer:hover {
-    color: #575958;
+    color: var(--cor2);
 }
