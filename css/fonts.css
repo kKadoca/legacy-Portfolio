@@ -45,7 +45,7 @@ header {
 }
 
 footer {
-    font: normal 20px var(--subtitle), var(--default);
+    font: normal 16px var(--subtitle), var(--default);
 }
 
 .botao {

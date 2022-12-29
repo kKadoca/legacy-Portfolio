@@ -11,10 +11,11 @@
 /* geral */
 body {
     color: var(--cor1);
+    background-color: var(--cor1);
 }
 
 header {
-    background: radial-gradient(circle, rgba(242,145,61,1) 80%, rgba(218,132,58,1) 100%);
+    background-color: var(--cor3);
 }
 
 .header {
@@ -27,7 +28,7 @@ header {
 
 /* tela de inicio */
 #inicio {    
-    background: radial-gradient(circle, rgba(242,242,242,1) 22%, rgba(224,224,224,1) 62%);
+    background-color: var(--cor5);
 }
 
 .botao {
@@ -51,7 +52,7 @@ header {
 
 /* tela de projetos */
 #projetos {
-    background: radial-gradient(circle, rgba(242,242,242,1) 60%, rgb(224, 224, 224) 100%);
+    background-color: var(--cor5);
 }
 
 .selecao:hover {

@@ -10,11 +10,18 @@ html {
     scroll-behavior: smooth;
 }
 
+main {
+    min-width: 375px;
+    max-width: 1300px;
+
+    margin: auto;
+}
+
 header {
-    height: max-content;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    height: max-content;
 }
 
 header img {
@@ -31,8 +38,8 @@ header a:hover {
 }
 
 section {
-    padding: 25px;
     text-align: center;
+    height: fit-content;
 }
 
 input {
@@ -40,7 +47,7 @@ input {
 }
 
 h2 {
-    margin-bottom: 30px;
+    padding: 25px;
 }
 
 .botao {
@@ -67,33 +74,32 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 650px;
-    gap: 100px;
+    flex-wrap: wrap;
 }
 
 .arte-animada {
-    height: 100%;
-    padding-left: 300px;
+    position: relative;
+    height: 550px;
+    left: -200px;
+    min-width: 350px;
 }
 
 #gifInicio {
-    height: 700px;
+    height: 100%;
     position: absolute;
-    transform: translate(-65%, -3.6%);
+    transform: translateX(-25%);
     opacity: 0;
 }
 
 #arteInicio {
-    height: 700px;
+    height: 100%;
     position: absolute;
-    transform: translate(-85%, -3.5%);
 }
 
 #container {
-    height: 700px;
-    width: 450px;
+    height: 100%;
+    width: 340px;
     position: absolute;
-    transform: translate(-85.8%, -3%);
     opacity: 0;
 }
 
@@ -101,6 +107,8 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: start;
+    margin-top: 30px;
+    min-width: 300px;
 }
 
 .texto-inicio {
@@ -108,18 +116,16 @@ h2 {
 }
 
 /* tela sobre mim */
-#sobre {
-    height: 580px;
-}
-
 .section-sobre {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .texto-section {
-    width: 420px;
+    min-width: 375px;
+    max-width: 420px;
     border-radius: 30px;
     padding: 22px 15px;
     box-shadow: 12px 12px 15px rgba(0, 0, 0, 0.40);
@@ -129,15 +135,16 @@ h2 {
 
 /* tela de projetos */
 #projetos {
-    height: 580px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 25px;
 }
 
 .section-projetos {
     display: flex;
-    width: 950px;
+    min-width: 375px;
+    max-width: 950px;
     height: 450px;
     overflow: hidden;
     border-bottom: 1px solid #343334;
@@ -201,15 +208,15 @@ h2 {
 }
 
 #proj2:checked ~ .s1 {
-    margin-top: -67.8%;
+    margin-top: -450px;
 }
 
 #proj3:checked ~ .s1 {
-    margin-top: -135.6%;
+    margin-top: -900px;
 }
 
 #proj4:checked ~ .s1 {
-    margin-top: -203.6%;
+    margin-top: -1350px;
 }
 
 /* habilidades */
@@ -269,10 +276,11 @@ h2 {
 
 /* footer */
 footer {
-    height: 3.5em;
+    height: 2.5em;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: .3rem;
 }
 
 footer p {
@@ -281,15 +289,15 @@ footer p {
 
 .medias {
     display: flex;
-    justify-content: space-evenly;
-    width: 250px;
-    height: 50%;
+    justify-content: space-around;
+    width: 150px;
+    height: 80%;
 }
 
 .medias img {
-    height: 100%;
+    height: 90%;
 }
 
 #drag3 {
-    height: 90%;
+    height: 100%;
 }
