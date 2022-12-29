@@ -28,7 +28,7 @@ header {
 
 /* tela de inicio */
 #inicio {    
-    background-color: var(--cor5);
+    background-image: linear-gradient(0deg, var(--cor5) 99.3%, var(--cor1) 100%);
 }
 
 .botao {
@@ -43,7 +43,7 @@ header {
 
 /* tela sobre mim */
 #sobre {
-    background: radial-gradient(circle, rgba(242,145,61,1) 60%, rgba(218,132,58,1) 100%);
+    background-image: linear-gradient(0deg, var(--cor3) 99.3%, var(--cor1) 100%);
 }
 
 .texto-section {
@@ -52,7 +52,7 @@ header {
 
 /* tela de projetos */
 #projetos {
-    background-color: var(--cor5);
+    background-image: linear-gradient(0deg, var(--cor5) 99.3%, var(--cor1) 100%);
 }
 
 .selecao:hover {
@@ -66,7 +66,7 @@ header {
 
 /* tela de habilidades */
 #habilidades {
-    background: radial-gradient(circle, rgba(242,145,61,1) 60%, rgba(218,132,58,1) 100%);
+    background-image: linear-gradient(0deg, var(--cor3) 99.3%, var(--cor1) 100%);
 }
 
 .card-habilidade {

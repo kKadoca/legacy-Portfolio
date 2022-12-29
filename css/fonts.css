@@ -75,11 +75,11 @@ footer {
     font: normal 25px var(--subtitle), var(--default);
 }
 
-.texto-descricao h3 {
+.descricao-projeto h3 {
     font: normal 25px var(--main), var(--default);
 }
 
-.texto-descricao p {
+.descricao-projeto p {
     font: normal 18px var(--textB), var(--default);
 }
 

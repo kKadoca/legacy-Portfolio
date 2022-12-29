@@ -19,13 +19,16 @@ function setAllForAnimation() {
 }
 
 function checkScrollPositionForAnimation() {
-    if (document.documentElement.scrollTop > 300 ) {
+    let scrollPosition = document.documentElement.scrollTop
+    let contentHeight = document.documentElement.clientHeight
+    
+    if (scrollPosition > contentHeight / 2.5) {
         startAboutAnimation()
     }
-    if (document.documentElement.scrollTop > 800 ) {
+    if (scrollPosition > contentHeight / 1.1) {
         startProjectsAnimation()
     }
-    if (document.documentElement.scrollTop > 1500 ) {
+    if (scrollPosition > contentHeight / 0.6) {
         startSkillsAnimation()
     }
 }
