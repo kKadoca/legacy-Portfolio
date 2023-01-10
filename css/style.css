@@ -74,6 +74,10 @@ h2 {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.20);
 }
 
+.hidden {
+    display: hidden;
+}
+
 /* tela de inicio */
 #inicio {
     display: flex;
@@ -99,6 +103,7 @@ h2 {
 #arteInicio {
     height: 100%;
     position: absolute;
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.100);
 }
 
 #container {
@@ -170,7 +175,7 @@ h2 {
     width: 30%;
 }
 
-.selecao {
+.item-lista-projeto {
     height: 25%;
     width: 100%;
     border-top: 1px solid #343334;

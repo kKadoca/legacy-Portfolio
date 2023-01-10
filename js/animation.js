@@ -22,13 +22,13 @@ function checkScrollPositionForAnimation() {
     let scrollPosition = document.documentElement.scrollTop
     let contentHeight = document.documentElement.clientHeight
     
-    if (scrollPosition > contentHeight / 2.5) {
+    if (scrollPosition > contentHeight / 2.1) {
         startAboutAnimation()
     }
-    if (scrollPosition > contentHeight / 1.1) {
+    if (scrollPosition > contentHeight / 0.7) {
         startProjectsAnimation()
     }
-    if (scrollPosition > contentHeight / 0.6) {
+    if (scrollPosition > contentHeight / 0.4) {
         startSkillsAnimation()
     }
 }

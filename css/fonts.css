@@ -71,7 +71,7 @@ footer {
 }
 
 /* tela de projetos */
-.selecao {
+.item-lista-projeto {
     font: normal 25px var(--subtitle), var(--default);
 }
 
