@@ -12,9 +12,6 @@ html {
 
 main {
     min-width: 375px;
-    max-width: 1300px;
-
-    margin: auto;
 }
 
 header {
@@ -238,23 +235,24 @@ h2 {
     flex-direction: column;
     align-items: center;
     height: fit-content;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 
 .subgrupo {
     background-color: #f2f2f2;
     height: fit-content;
-    min-width: 375px;
+    min-width: 300px;
     max-width: 700px;
     border-radius: 30px;
-    margin-bottom: 25px;
+    margin: 0px 20px 25px 20px;
     padding-bottom: 35px;
+    padding-right: 20px;
     box-shadow: 12px 12px 15px rgba(0, 0, 0, 0.40);
 }
 
 .subgrupo h3{
     text-align: start;
-    padding: 20px 60px;
+    padding: 20px 50px;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.300);
 }
 
@@ -262,9 +260,10 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     height: fit-content;
-    width: 96%;
-    gap: 40px 30px;
-    margin: 0px 30px;
+    justify-content: center;
+    width: 100%;
+    gap: 20px 20px;
+    margin: 0px 10px;
 }
 
 .card-habilidade {
