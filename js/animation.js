@@ -19,16 +19,17 @@ function setAllForAnimation() {
 }
 
 function checkScrollPositionForAnimation() {
-    let scrollPosition = document.documentElement.scrollTop
+    let contentWidth = document.documentElement.clientWidth
     let contentHeight = document.documentElement.clientHeight
+    let scrollPosition = document.documentElement.scrollTop
     
-    if (scrollPosition > (contentHeight / 3)) {
+    if (scrollPosition > (contentHeight / 2.2)) {
         startAboutAnimation()
     }
-    if (scrollPosition > (contentHeight / 0.9)) {
+    if (scrollPosition > (contentHeight / 0.8)) {
         startProjectsAnimation()
     }
-    if (scrollPosition > (contentHeight / 0.6)) {
+    if (scrollPosition > (contentHeight / 0.5)) {
         startSkillsAnimation()
     }
 }
@@ -52,16 +53,10 @@ function setAboutAnimation() {
 }
 
 function setProjectsAnimation() {
-    let navProjects = document.getElementById('navProjects')
-    let cardSlider = document.getElementById('cardSlider')
-    let projectsTitle = document.getElementById('projectsTitle')
+    let sectionProjects = document.getElementById('sectionProjects')
 
-    projectsTitle.style.opacity = 0
-    projectsTitle.style.color = "white"
-    navProjects.style.opacity = 0
-    cardSlider.style.opacity = 0
-    navProjects.style.transform = "translateY(140%)"
-    cardSlider.style.transform = "translateY(30%)"
+    sectionProjects.style.opacity = 0
+    sectionProjects.style.transform = "translateY(70%)"
 }
 
 function setSkillsAnimation() {
@@ -115,9 +110,7 @@ function startAboutAnimation() {
 }
 
 function startProjectsAnimation() {
-    projectsTitle.style.animation = "showUp 1.5s ease-out forwards"
-    navProjects.style.animation = "showUp 1s ease-out forwards"
-    cardSlider.style.animation = "showUp 1s .3s ease-in-out forwards"
+    sectionProjects.style.animation = "showUp .8s ease-in-out forwards"
 }
 
 function startSkillsAnimation() {

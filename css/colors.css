@@ -31,14 +31,25 @@ header {
     background-image: linear-gradient(0deg, var(--cor5) 99.3%, var(--cor1) 100%);
 }
 
-.botao {
+.b1 {
     border-color: var(--cor1);
     color: var(--cor1);
 }
 
-.botao:hover {
+.b1:hover {
     background-color: var(--cor3);
     transition: .6s;
+}
+
+.b2 {
+    border: none;
+    background-color: var(--cor3);
+}
+
+.b2:hover {
+    background-color: var(--cor1);
+    color: var(--cor3);
+    transition: .3s;
 }
 
 /* tela sobre mim */
@@ -55,12 +66,7 @@ header {
     background-image: linear-gradient(0deg, var(--cor5) 99.3%, var(--cor1) 100%);
 }
 
-.selecao:hover {
-    background-color: var(--cor3);
-    transition: .6s;
-}
-
-.descricao-projeto {
+.card-project {
     background-color: var(--cor5);
 }
 

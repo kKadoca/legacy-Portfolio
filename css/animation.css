@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* general */
-.botao {
+.b1 {
     animation: floatingY 2.5s ease-in-out infinite alternate;
 }
 
@@ -24,6 +24,11 @@
 
 #arteInicio {
     animation: floatingX 2.5s ease-in-out infinite alternate;
+}
+
+/* projetos section */
+.card-project {
+    animation: floatingY 3s ease-in-out infinite alternate;
 }
 
 /* habilidades section */

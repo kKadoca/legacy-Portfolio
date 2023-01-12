@@ -1,8 +1,5 @@
-Acessibilidade e Responsividade:
-- Responsividade dinâmica
 - Otimizar arquivos de mídia
-- Referenciar cores em nomes em colors.css
-- Substituir PX por REM onde possível 
+- Imagem Avatar diminuir width
 
 >>>> AFTER::
 Geral:

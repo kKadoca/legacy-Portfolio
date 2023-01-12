@@ -53,7 +53,7 @@ footer {
 }
 
 .b2 {
-    font-size: 20px;
+    font-size: 22px;
 }
 
 /* tela de inicio */
@@ -71,16 +71,12 @@ footer {
 }
 
 /* tela de projetos */
-.item-lista-projeto {
-    font: normal 25px var(--subtitle), var(--default);
-}
-
-.descricao-projeto h3 {
+.card-project h3 {
     font: normal 25px var(--main), var(--default);
 }
 
-.descricao-projeto p {
-    font: normal 18px var(--textB), var(--default);
+.card-project p {
+    font: normal 15px var(--textB), var(--default);
 }
 
 /* tela de habilidades */
