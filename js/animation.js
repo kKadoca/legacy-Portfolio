@@ -18,20 +18,15 @@ function setAllForAnimation() {
     setSkillsAnimation()
 }
 
-function checkScrollPositionForAnimation() {
-    let contentWidth = document.documentElement.clientWidth
-    let contentHeight = document.documentElement.clientHeight
-    let scrollPosition = document.documentElement.scrollTop
-    
-    if (scrollPosition > (contentHeight / 2.2)) {
-        startAboutAnimation()
-    }
-    if (scrollPosition > (contentHeight / 0.8)) {
-        startProjectsAnimation()
-    }
-    if (scrollPosition > (contentHeight / 0.5)) {
-        startSkillsAnimation()
-    }
+const checkScrollPositionForAnimation = () => {
+    const animatedElements = Array.from(document.querySelectorAll('.js-play'))
+    let windowTop = window.pageYOffset + (window.innerHeight * 0.75 || document.body.clientHeight * 0.75 || document.documentElement.clientHeight * 0.75);
+
+    animatedElements.forEach(el => {
+        if (windowTop > el.offsetTop) {
+            el.style.animationPlayState = 'running'
+        }
+    })
 }
 
 function setHomeAnimation() {
@@ -50,6 +45,9 @@ function setAboutAnimation() {
     aboutText.style.opacity = 0
     aboutTextBox.style.opacity = 0
     aboutTextBox.style.transform = "translateX(-70%)"
+    aboutTitle.style.animation = "showUp 1.5s ease-out forwards paused"
+    aboutTextBox.style.animation = "showUp .7s ease-out forwards paused"
+    aboutText.style.animation = "showUp .3s .8s ease-in-out forwards paused"
 }
 
 function setProjectsAnimation() {
@@ -57,6 +55,7 @@ function setProjectsAnimation() {
 
     sectionProjects.style.opacity = 0
     sectionProjects.style.transform = "translateY(70%)"
+    sectionProjects.style.animation = "showUp .8s ease-in-out forwards paused"
 }
 
 function setSkillsAnimation() {
@@ -64,6 +63,7 @@ function setSkillsAnimation() {
 
     skillsTitle.style.opacity = 0
     skillsTitle.style.color = "white"
+    skillsTitle.style.animation = "showUp 1.5s ease-out forwards paused"
     setSkillSubgroupsAnimation()
     setSkillCardsAnimation()
 }
@@ -82,6 +82,10 @@ function setSkillSubgroupsAnimation() {
     toolCard.style.opacity = 0
     toolGrid.style.transform = "translateX(150%)"
     toolCard.style.transform = "translateX(150%)"
+    languageCard.style.animation = "showUp .8s ease-out forwards paused"
+    languageGrid.style.animation = "showUp .8s .2s ease-out forwards paused"
+    toolCard.style.animation = "showUp .8s .2s ease-out forwards paused"
+    toolGrid.style.animation = "showUp .8s .4s ease-out forwards paused"
 }
 
 function setSkillCardsAnimation() {
@@ -101,22 +105,4 @@ function startHomeAnimation() {
 
     gif.style.animation = "fire 1s backwards"
     container.style.animation = "goUp .3s .4s linear forwards"
-}
-
-function startAboutAnimation() {
-    aboutTitle.style.animation = "showUp 1.5s ease-out forwards"
-    aboutTextBox.style.animation = "showUp .7s ease-out forwards"
-    aboutText.style.animation = "showUp .3s .8s ease-in-out forwards"
-}
-
-function startProjectsAnimation() {
-    sectionProjects.style.animation = "showUp .8s ease-in-out forwards"
-}
-
-function startSkillsAnimation() {
-    skillsTitle.style.animation = "showUp 1.5s ease-out forwards"
-    languageCard.style.animation = "showUp .8s ease-out forwards"
-    languageGrid.style.animation = "showUp .8s .2s ease-out forwards"
-    toolCard.style.animation = "showUp .8s .2s ease-out forwards"
-    toolGrid.style.animation = "showUp .8s .4s ease-out forwards"
 }
