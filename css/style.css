@@ -127,10 +127,6 @@ h2 {
     flex-wrap: wrap;
 }
 
-.section-sobre > img {
-    padding-left: 40px;
-}
-
 .coluna-sobre {
     position: relative;
     min-width: 360px;

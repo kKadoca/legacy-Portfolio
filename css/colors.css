@@ -31,7 +31,7 @@ header {
     background-image: linear-gradient(0deg, var(--cor5) 99.3%, var(--cor1) 100%);
 }
 
-.b1 {
+.botao {
     border-color: var(--cor1);
     color: var(--cor1);
 }
@@ -68,6 +68,7 @@ header {
 
 .card-project {
     background-color: var(--cor5);
+    color: var(--cor1);
 }
 
 /* tela de habilidades */
