@@ -19,6 +19,13 @@ function setAllForAnimation() {
 }
 
 const checkScrollPositionForAnimation = () => {
+    let contentHeight = document.documentElement.clientHeight
+    let scrollPosition = document.documentElement.scrollTop
+
+    if (scrollPosition > (contentHeight * 0.35)) {
+        startAboutAnimation()
+    }
+
     const animatedElements = Array.from(document.querySelectorAll('.js-play'))
     let windowTop = window.pageYOffset + (window.innerHeight * 0.75 || document.body.clientHeight * 0.75 || document.documentElement.clientHeight * 0.75);
 
@@ -36,22 +43,32 @@ function setHomeAnimation() {
 }
 
 function setAboutAnimation() {
+    let aboutTitle = document.getElementById('aboutTitle')
     let aboutText = document.getElementById('aboutText')
     let aboutTextBox = document.getElementById('aboutTextBox')
-    let aboutTitle = document.getElementById('aboutTitle')
+    let aboutImage = document.getElementById('aboutImage')
 
     aboutTitle.style.opacity = 0
     aboutTitle.style.color = "white"
+    aboutTitle.style.animation = "showUp 1.5s ease-out forwards paused"
+
     aboutText.style.opacity = 0
+    aboutText.style.animation = "showUp .3s .8s ease-in-out forwards paused"
+    
     aboutTextBox.style.opacity = 0
     aboutTextBox.style.transform = "translateX(-70%)"
-    aboutTitle.style.animation = "showUp 1.5s ease-out forwards paused"
     aboutTextBox.style.animation = "showUp .7s ease-out forwards paused"
-    aboutText.style.animation = "showUp .3s .8s ease-in-out forwards paused"
+
+    aboutImage.style.opacity = 0
+    aboutImage.style.animation = "showUp 1s 1s ease-in-out forwards paused"
 }
 
 function setProjectsAnimation() {
+    let projectsTitle = document.getElementById('projectsTitle')
     let sectionProjects = document.getElementById('sectionProjects')
+
+    projectsTitle.style.opacity = 0
+    projectsTitle.style.animation = "showUp .8s ease-in-out forwards paused"
 
     sectionProjects.style.opacity = 0
     sectionProjects.style.transform = "translateY(70%)"
@@ -105,4 +122,11 @@ function startHomeAnimation() {
 
     gif.style.animation = "fire 1s backwards"
     container.style.animation = "goUp .3s .4s linear forwards"
+}
+
+function startAboutAnimation() {
+    aboutTitle.style.animationPlayState = 'running'
+    aboutText.style.animationPlayState = 'running'
+    aboutTextBox.style.animationPlayState = 'running'
+    aboutImage.style.animationPlayState = 'running'
 }

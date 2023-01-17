@@ -21,6 +21,7 @@ header {
     align-items: center;
     height: max-content;
     padding: 5px;
+    overflow: hidden;
 }
 
 header img {
