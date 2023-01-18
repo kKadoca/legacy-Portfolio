@@ -72,7 +72,7 @@ function setProjectsAnimation() {
 
     sectionProjects.style.opacity = 0
     sectionProjects.style.transform = "translateY(70%)"
-    sectionProjects.style.animation = "showUp .8s ease-in-out forwards paused"
+    sectionProjects.style.animation = "showUp 1.2s ease-in-out forwards paused"
 }
 
 function setSkillsAnimation() {
