@@ -1,24 +1,26 @@
 function carregar() {
-    var msg = window.document.getElementById('msg')
-    var saud = window.document.getElementById('saud')
-    var img = window.document.getElementById('imagem')
+    var bg = window.document.getElementById('bg')
     var data = new Date()
     var hora = data.getHours()
-    if (hora >= 0 && hora < 12) {
-        // BOM DIA!
-        img.src = "images/bomdia250.png"
-        document.body.style.backgroundColor = "#faeb97"
-        saud.innerHTML = ('Bom dia!')
-    } else if (hora >= 12 && hora <= 18) {
-        // BOA TARDE!
-        img.src = "images/boatarde250.png"
-        document.body.style.backgroundColor = "#a09084"
-        saud.innerHTML = ('Boa tarde!')
+    if (hora >= 4 && hora < 9) {
+        // MANHÃ
+        bg.src = "img/morning-bg.jpg"
+        document.body.style.backgroundColor = "#bfffe9"
+    } else if (hora >= 9 && hora < 14) {
+        // DIA
+        bg.src = "img/day-bg.jpg"
+        document.body.style.backgroundColor = "#ffffab"
+    } else if (hora >= 14 && hora < 18) {
+        // TARDE
+        bg.src = "img/afternoon-bg.jpg"
+        document.body.style.backgroundColor = "#ffbe5c"
+    } else if (hora >= 18 && hora < 22) {
+        // NOITE
+        bg.src = "img/evening-bg.jpg"
+        document.body.style.backgroundColor = "#a8dafc"
     } else {
-        // BOA NOITE!
-        img.src = "images/boanoite250.png"
-        document.body.style.backgroundColor = "#1e3138"
-        saud.innerHTML = ('Boa noite!')
+        // MADRUGADA
+        bg.src = "img/night-bg.jpg"
+        document.body.style.backgroundColor = "#233039"
     }
-    msg.innerHTML += (`Agora são ${hora} horas.`)
 }

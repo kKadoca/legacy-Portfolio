@@ -7,37 +7,19 @@
 }
 
 body {
-    background-color: rgb(89, 89, 209);
-    font: normal 18pt Arial;
+    text-align: center;
+    background-color: #ffffab;
 }
 
-header {
+section > img {
+    position: relative;
+    width: 100%;
+    max-width: 1600px;
+}
+
+p {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -130%);
     color: white;
-    text-align: center;
-    margin: 30px;
-}
-
-section {
-    background-color: aliceblue;
-    border-radius: 10px;
-    width: 450px;
-    height: 400px;
-    margin: auto;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.53);
-}
-
-div {
-    text-align: center;
-    padding: 7px;
-    margin: 10px;
-}
-
-h2 {
-    margin: 10px;
-}
-
-footer {
-    margin: 20px;
-    color: white;
-    text-align: center;
 }
