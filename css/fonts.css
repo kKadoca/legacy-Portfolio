@@ -86,7 +86,8 @@ footer {
 
 /* tela de habilidades */
 .habilidade-descricao {
-    font: normal 20px var(--text), 17px var(--default);
+    font: normal 20px var(--text), var(--default);
+    font-size: 18px;
 }
 
 .subgrupo h3 {
