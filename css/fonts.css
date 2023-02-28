@@ -9,27 +9,32 @@
     --default: sans-serif;
 }
 
-@font-face { /* Texto-Início e Botões*/
+@font-face {
+    /* Texto-Início e Botões*/
     font-family: 'Brain';
     src: url('../fonts/Brain.ttf') format('truetype');
 }
 
-@font-face { /* Navigation e Subtítulos*/
+@font-face {
+    /* Navigation e Subtítulos*/
     font-family: 'TylerDurden';
     src: url('../fonts/TylerDurden.ttf') format('truetype');
 }
 
-@font-face { /* Nome-Início */
+@font-face {
+    /* Nome-Início */
     font-family: 'Patrick';
     src: url('../fonts/Patrick.ttf') format('truetype');
 }
 
-@font-face { /* Corpo de texto*/
+@font-face {
+    /* Corpo de texto*/
     font-family: 'Cafe';
     src: url('../fonts/LG\ Cafe.ttf') format('truetype');
 }
 
-@font-face { /* Corpo de texto*/
+@font-face {
+    /* Corpo de texto*/
     font-family: 'CafeBold';
     src: url('../fonts/LG\ Cafe\ Bold.ttf') format('truetype');
 }
@@ -81,9 +86,9 @@ footer {
 
 /* tela de habilidades */
 .habilidade-descricao {
-    font: normal 20px var(--text), var(--default);
+    font: normal 20px var(--text), 17px var(--default);
 }
 
-.subgrupo h3{
+.subgrupo h3 {
     font: normal 40px var(--textB), var(--default);
 }
