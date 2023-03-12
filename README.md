@@ -1,6 +1,15 @@
 # Meu Portfolio Web Developer
 Este é o meu portfólio pessoal como desenvolvedor web, onde apresento minhas habilidades e projetos realizados.
 
+## Especificações
+Projeto realizado utilizando:
+
+<div>
+<img height="75px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" />
+<img height="75px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" />
+<img height="65px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" />
+</div>
+
 ## Instalação
 - Clone este repositório;
 - Abra o arquivo `index.html` em um navegador de sua preferência.
